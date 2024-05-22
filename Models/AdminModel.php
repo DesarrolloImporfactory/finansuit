@@ -37,6 +37,8 @@ class AdminModel extends Query
             }
         } catch (Exception $e) {
             $response->error = $e->getMessage();
+        } finally {
+            return $response;
         }
     }
     private function initialResponse()
