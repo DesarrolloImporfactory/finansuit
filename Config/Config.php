@@ -1,10 +1,16 @@
 <?php
 
-const HOST = '127.0.0.1';
-const USER = "root";
-const PASSWORD = "";
-const DB = "imporsuit_finanzas";
-const CHARSET = "utf8";
+$host = $_SERVER['HTTP_HOST'] == "localhost" ? "localhost" : "localhost";
+$user = $_SERVER['HTTP_HOST'] == "localhost" ? "root" : "imporsui_financiero";
+$password = $_SERVER['HTTP_HOST'] == "localhost" ? "" : "imporsui_financiero";
+$db = $_SERVER['HTTP_HOST'] == "localhost" ? "imporsuit_finanzas" : "imporsui_financiero";
+
+define("HOST", $host);
+define("USER", $user);
+define("PASSWORD", $password);
+define("DB", $db);
+define("CHARSET", "utf8");
+
 // obtienen la url del proyecto para hacer peticiones ajax
 
 // Definir una variable en lugar de una constante para BASE_URL
