@@ -20,7 +20,6 @@
             <input type="text" name="username" placeholder="Usuario" class="w-full p-2 rounded border border-gray-300 mb-2" required>
             <input type="password" name="password" placeholder="Contraseña" class="w-full p-2 rounded border border-gray-300 mb-2" required>
             <button type="submit" class="w-full p-2 bg-[#171931] text-white rounded">Ingresar</button>
-
         </form>
         <hr class="bg-[#171931] py-[1px] my-3">
         <a href="#" class="text-blue-500">¿Olvidaste tu contraseña?</a>
