@@ -1,9 +1,9 @@
 <?php
 
 $host = $_SERVER['HTTP_HOST'] == "localhost" ? "localhost" : "localhost";
-$user = $_SERVER['HTTP_HOST'] == "localhost" ? "root" : "imporsui_financiero";
-$password = $_SERVER['HTTP_HOST'] == "localhost" ? "" : "imporsui_financiero";
-$db = $_SERVER['HTTP_HOST'] == "localhost" ? "imporsuit_finanzas" : "imporsui_financiero";
+$user = $_SERVER['HTTP_HOST'] == "localhost" ? "root" : "imporsuit_financiero";
+$password = $_SERVER['HTTP_HOST'] == "localhost" ? "" : "imporsuit_financiero";
+$db = $_SERVER['HTTP_HOST'] == "localhost" ? "imporsuit_finanzas" : "imporsuit_financiero";
 
 define("HOST", $host);
 define("USER", $user);
